@@ -8,11 +8,8 @@
 int maxX = 640;
 int maxY = 480;
 
-int main(int argc, char **argv) {
-	/*if (SDL_Init(SDL_INIT_EVERYTHING) != 0) {
-		std::cerr << "SDL_Init error: " << SDL_GetError() << std::endl;
-		return 1;
-	}*/
+int main(int argc, char **argv) 
+{
 
 	SDL_Window* win = SDL_CreateWindow("Hello World!", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, maxX, maxY, SDL_WINDOW_SHOWN);
 
